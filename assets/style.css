@@ -271,6 +271,7 @@ header#nav.scrolled {
   height: auto;
   object-fit: contain;
   flex: none;
+  margin-left: 10px;
 }
 
 .logo small {
@@ -377,7 +378,7 @@ header#nav.scrolled {
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(90deg,
+    linear-gradient(180deg,
       rgba(44, 27, 18, 0.1) 20%,
       rgba(74, 46, 32, 0.7) 50%,
       rgba(44, 27, 18, 1.0) 80%),
@@ -710,7 +711,7 @@ header#nav.scrolled {
 }
 
 .svc-media {
-  height: 170px;
+  height: 280px;
   position: relative;
   overflow: hidden;
 }
@@ -821,7 +822,7 @@ header#nav.scrolled {
 }
 
 .proj-media {
-  height: 260px;
+  height: 400px;
   position: relative;
   overflow: hidden;
 }
@@ -923,7 +924,7 @@ header#nav.scrolled {
 }
 
 .prod-media {
-  height: 190px;
+  height: 250px;
 }
 
 .prod-media img {
@@ -1881,7 +1882,7 @@ textarea:focus-visible,
 .pd-gallery-main {
   border-radius: 6px;
   overflow: hidden;
-  aspect-ratio: 4/3;
+  aspect-ratio: 3.5/4;
   box-shadow: var(--shadow);
   margin-bottom: 16px;
 }
